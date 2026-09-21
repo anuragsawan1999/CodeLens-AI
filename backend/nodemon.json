@@ -1,0 +1,6 @@
+{
+  "ignore":[
+    "temp-repo-*",
+    "temp-repo/**"
+  ]
+}
