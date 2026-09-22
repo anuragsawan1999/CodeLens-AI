@@ -83,7 +83,8 @@ style={{
 background:"#161b22",
 padding:"25px",
 borderRadius:"12px",
-width:"350px"
+width:"100%",
+maxWidth:"350px"
 
 }}
 

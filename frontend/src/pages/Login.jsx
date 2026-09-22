@@ -35,12 +35,13 @@ export default function Login() {
   return (
 
     <div style={{
-      height: "100vh",
+      minHeight: "100vh",
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
       background: "#0d1117",
-      color: "white"
+      color: "white",
+      padding: "20px"
     }}>
 
 
@@ -48,7 +49,8 @@ export default function Login() {
         background: "#161b22",
         padding: "30px",
         borderRadius: "10px",
-        width: "300px"
+        width: "100%",
+        maxWidth: "300px"
       }}>
 
 

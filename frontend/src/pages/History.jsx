@@ -50,12 +50,11 @@ export default function History() {
 
   return (
 
-    <div style={{ display: "flex", gap: "20px" }}>
+    <div className="split-panel">
 
       {/* LEFT LIST */}
       <div
   style={{
-    flex: 1,
     background: "#161b22",
     padding: "15px",
     borderRadius: "10px",
@@ -110,7 +109,6 @@ export default function History() {
       {/* RIGHT DETAILS */}
       <div
   style={{
-    flex: 1,
     background: "#161b22",
     padding: "15px",
     borderRadius: "10px",

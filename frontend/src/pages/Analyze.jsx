@@ -58,10 +58,10 @@ export default function Analyze() {
 
   return (
 
-    <div style={{display:"flex", gap:"20px"}}>
+    <div className="split-panel">
 
 
-      <div style={{flex:1}}>
+      <div>
 
         <h2>Code Editor</h2>
 
@@ -92,7 +92,7 @@ export default function Analyze() {
 
 
 
-      <div style={{flex:1}}>
+      <div>
 
         <h2>AI Analysis</h2>
 

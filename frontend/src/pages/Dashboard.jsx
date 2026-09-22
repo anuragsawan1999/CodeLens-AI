@@ -68,18 +68,15 @@ export default function Dashboard(){
 
 
 
-      <div style={{
-        display:"flex",
-        gap:"20px",
-        marginTop:"30px"
-      }}>
+      <div className="dashboard-stats">
 
 
         <div style={{
           background:"#161b22",
           padding:"20px",
           borderRadius:"10px",
-          width:"250px"
+          width:"100%",
+          maxWidth:"250px"
         }}>
 
 
